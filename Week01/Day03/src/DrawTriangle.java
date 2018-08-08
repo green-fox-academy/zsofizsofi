@@ -8,10 +8,10 @@ public class DrawTriangle {
             System.out.println(a);
         }
         int i
-        System.out.print()*/
+        System.out.print()
         for (int i =0; i<10; i++) {
             for (int )
-            System.out.println(i);
+            System.out.println(i);*/
         }
     }
-}
+
