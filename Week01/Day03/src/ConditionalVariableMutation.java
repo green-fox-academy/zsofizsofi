@@ -25,18 +25,52 @@ public class ConditionalVariableMutation {
         if (b>20) {
             System.out.println(out2="More!");
         }*/
-        int c = 123;
-        int credits = 100;
-        boolean isBonus = false;
+
+
+        /*int c = 45;
+        int credits = 30;
+        boolean isBonus = true;
+        if (credits >= 50 && isBonus == false) {
+            System.out.println(c - 2);
+        }
+        if (credits < 50 && isBonus == false) {
+            System.out.println(c - 1);
+        }
+        if (isBonus == true) {
+            System.out.println(c);
+        }
+
+
         // if credits are at least 50,
         // and isBonus is false decrement c by 2
         // if credits are smaller than 50,
         // and isBonus is false decrement c by 1
-        // if isBonus is true c should remain the same
+        // if isBonus is true c should remain the same */
+
+        int d = 8;
+        int time = 20;
+        String out3 = "";
+        if(d%4==0 && time<=200) {
+            out3 ="check";
+        }
+
+        if (time> 200) {
+            out3 ="Time out";
+        }
+
+        else {
+            out3 = "Run Forest Run!";
+        }
+        // if d is dividable by 4
+        // and time is not more than 200
+        // set out3 to "check"
+        // if time is more than 200
+        // set out3 to "Time out"
+        // otherwise set out3 to "Run Forest Run!"
 
 
-        System.out.println(c);
+        {System.out.println(out3);}
+
     }
-
 }
 
