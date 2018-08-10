@@ -1,8 +1,8 @@
 public class Doubling3 {
 
         public static void main(String[] args) {
-            int baseNum= doubling(123);
-            System.out.println(baseNum);
+
+            System.out.println(doubling(123));
         }
 
         public static int doubling(int a) {
