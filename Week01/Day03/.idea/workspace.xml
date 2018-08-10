@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f510faa-2ddf-4d41-b82a-7085f9e620f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/AddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/AppendA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/AppendAFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/ChangeElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/CompareLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/DiagonalMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/DoubleItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/IncrementElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/NumEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/PrintAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/PrintArguments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/SumElments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Third.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/SumAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/SwapElments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02/Day06/src/GreeterFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02/Day06/src/GreeterFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02/Day06/src/Summing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02/Day06/src/Summing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Doubling3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Doubling3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Faktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Faktor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Summing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week02/Day09/Gyakorlás/src/Summing2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -294,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533912626377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533914971633" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week02/Day06" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
