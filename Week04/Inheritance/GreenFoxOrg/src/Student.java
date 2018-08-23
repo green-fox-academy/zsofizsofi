@@ -1,16 +1,11 @@
 public class Student extends Person {
 
-    //    private String name;
-//    private int age;
-//    private String gender;
-    String previousOrganization;
-    int skippedDays;
+
+    private String previousOrganization;
+    private int skippedDays;
 
     public Student(String name, int age, String gender, String previousOrganization) {
         super(name, age, gender);
-//        this.name = name;
-//        this.age = age;
-//        this.gender = gender;
         this.previousOrganization = previousOrganization;
         this.skippedDays = 0;
     }
@@ -27,7 +22,7 @@ public class Student extends Person {
     @Override
     public void introduce() {
         super.introduce();
-        System.out.print(" from " + previousOrganization + " who skipped" + skippedDays + " days from the course already.");
+        System.out.print(" from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
     }
 
     @Override

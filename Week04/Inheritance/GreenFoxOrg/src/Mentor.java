@@ -1,5 +1,5 @@
 public class Mentor extends Person {
-    String level; //: the level of the mentor (junior / intermediate / senior)
+    private String level; //: the level of the mentor (junior / intermediate / senior)
 
     public Mentor(String name, int age, String gender, String level) {
         super(name, age, gender);
