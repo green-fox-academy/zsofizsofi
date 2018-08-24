@@ -4,16 +4,16 @@ public class Fibo {
         int j=0;
         int k=1;
         for (int i = 0; i < fiboIndex ; i++) {
-            int temp= j;
+            int a= j;
             j=j+k;
-            k=temp;
+            k=a;
 
         }
         return j;
     }
 
     public static void main(String[] args) {
-        System.out.println(fibo(6));
+        System.out.println(fibo(7));
     }
 }
 
