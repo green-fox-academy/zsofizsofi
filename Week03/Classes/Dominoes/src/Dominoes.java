@@ -4,6 +4,7 @@ public class Dominoes {
     private final int[] values;
 
     public Dominoes(int valueA, int valueB) {
+
         this.values = new int[]{valueA, valueB};
     }
 
