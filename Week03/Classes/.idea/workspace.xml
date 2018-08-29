@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d4249a-b20b-4123-bd9e-c94b01dabf29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sharpie/src/SharpieSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PokemonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/ExamTrial/src/MostProductiveYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Gyakorlas/PetrolStation/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Gyakorlas/PetrolStation/src/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Armada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/BattleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Pirates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/WarApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dominoes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/Dominoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/Dominoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/MainDominoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/MainDominoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dominoes/src/MainDominoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/src/MainDominoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FleetOfThings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/FleetOfThings.class" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/FleetOfThings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/Thing.class" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/Thing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FleetOfThings/src/FleetOfThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/src/FleetOfThings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FleetOfThings/src/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/src/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/Sharpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/Sharpie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/SharpieMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/SharpieMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/src/Sharpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/src/Sharpie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/src/SharpieMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/src/SharpieMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -236,7 +212,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535535716280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535538086263" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Sharpie" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
