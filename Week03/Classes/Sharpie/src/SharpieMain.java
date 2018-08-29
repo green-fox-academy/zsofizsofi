@@ -26,5 +26,6 @@ public class SharpieMain {
         System.out.println(sharpie.color);
         System.out.println(sharpie2);
         System.out.println(sharpie4.getInkAmount2());
+        System.out.println(sharpieSet);
     }
 }

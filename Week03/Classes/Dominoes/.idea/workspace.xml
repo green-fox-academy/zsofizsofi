@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="646888cc-c7ba-4834-a67e-b83c9f2f748e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Animal/src/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Animal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Animal/out/production/Animal/AnimalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/AnimalMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Animal/src/AnimalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/src/AnimalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animal/src/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/src/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sharpie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sharpie/out/production/Sharpie/Sharpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/out/production/Sharpie/Sharpie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sharpie/out/production/Sharpie/SharpieMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/out/production/Sharpie/SharpieMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sharpie/src/Sharpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/src/Sharpie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sharpie/src/SharpieMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/src/SharpieMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sharpie/src/SharpieSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/src/SharpieSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../todo-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../todo-app" afterDir="false" />
@@ -160,7 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535547073209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535553215332" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -208,7 +205,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

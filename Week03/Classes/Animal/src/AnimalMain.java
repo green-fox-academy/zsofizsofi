@@ -5,6 +5,9 @@ public class AnimalMain {
 
         Animal tiger = new Animal();
 
+        Farm farm1 = new Farm(1);
+        farm1.breed();
+
         System.out.println(tiger.hunger);
         System.out.println(tiger.eat());
         System.out.println(tiger.drink());
