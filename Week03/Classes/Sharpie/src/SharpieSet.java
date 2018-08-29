@@ -2,27 +2,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SharpieSet {
-    List<Sharpie> listOfSharpies = new ArrayList<>();
+    private List<Sharpie> listOfSharpies = new ArrayList<>();
 
-    public void setListOfSharpies(List<Sharpie> listOfSharpies) {
-        this.listOfSharpies = listOfSharpies;
+    public void setListOfSharpies() { //konstruktor, de kb tök fölösleges
+        this.listOfSharpies = listOfSharpies; //ez nem is kell ide, üresen is jó
     }
 
+    public void addSharpie(Sharpie sharpie1) {
+        listOfSharpies.add(sharpie1);
+    }
 
     public int countUsable() {
         int count = 0;
         for (Sharpie sharpie : listOfSharpies) {
-            if (sharpie.inkAmount > 0) count++;
+            if (sharpie.getInkAmount() > 0) count++;
         }
         return count;
     }
 
-    public void removeTrash() {
+    public List<Sharpie> removeTrash() {
         for (Sharpie sharpie : listOfSharpies) {
-            if (sharpie.inkAmount == 0) listOfSharpies.remove(sharpie);
+            if (sharpie.getInkAmount() == 0) {
+                listOfSharpies.remove(sharpie);
+            }
         }
+        return listOfSharpies;
     }
 }
-//    it contains a list of Sharpie
-//    countUsable() -> sharpie is usable if it has ink in it
-//        removeTrash() -> removes all unusable sharpies
+
+
+
+
+
