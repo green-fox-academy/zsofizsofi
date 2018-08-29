@@ -7,7 +7,6 @@ public class Thing {
 
     Thing(String name) {
         this.name = name;
-        //this.completed = completed;
     }
 
     void complete() {

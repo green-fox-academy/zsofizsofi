@@ -14,4 +14,8 @@ public class Sharpie {
         this.inkAmount=inkAmount-1;
         return inkAmount;
     }
+    public String toString(){
+        return this.color;
+    }
+
 }

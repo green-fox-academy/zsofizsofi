@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98d4249a-b20b-4123-bd9e-c94b01dabf29" name="Default Changelist" comment="" />
+    <list default="true" id="98d4249a-b20b-4123-bd9e-c94b01dabf29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Sharpie/src/SharpieSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PokemonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/ExamTrial/src/MostProductiveYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Gyakorlas/PetrolStation/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Gyakorlas/PetrolStation/src/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Armada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/BattleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Pirates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/WarApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominoes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/Dominoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/Dominoes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/MainDominoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/out/production/Dominoes/MainDominoes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dominoes/src/MainDominoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/src/MainDominoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FleetOfThings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/FleetOfThings.class" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/FleetOfThings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/Thing.class" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/out/production/FleetOfThings/Thing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FleetOfThings/src/FleetOfThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/src/FleetOfThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FleetOfThings/src/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/FleetOfThings/src/Thing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sharpie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/Sharpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/Sharpie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/SharpieMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/SharpieMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sharpie/src/Sharpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/src/Sharpie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sharpie/src/SharpieMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/src/SharpieMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +67,75 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-765847039">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="228" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="228" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Week04/Inheritance/GreenFoxOrg/src/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-356" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PostIt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PokemonMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-310">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,6 +149,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Week04/Inheritance/GreenFoxOrg/src/GreenfoxOrgMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -69,20 +167,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/PostIt.java" />
         <option value="$PROJECT_DIR$/src/MainPostIt.java" />
+        <option value="$PROJECT_DIR$/src/PokemonMain.java" />
+        <option value="$PROJECT_DIR$/src/Pokemon.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -98,19 +202,42 @@
             <path>
               <item name="Classes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="BlogPost" type="462c0819:PsiDirectoryNode" />
+              <item name="FleetOfThings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="FleetOfThings" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Sharpie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Sharpie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534360291323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535535716280" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sharpie" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -127,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PokemonMain">
     <configuration name="MainPostIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainPostIt" />
       <module name="Classes" />
@@ -135,8 +262,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokemonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PokemonMain" />
+      <module name="Classes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainPostIt" />
+      <item itemvalue="Application.PokemonMain" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PokemonMain" />
         <item itemvalue="Application.MainPostIt" />
       </list>
     </recent_temporary>
@@ -155,34 +294,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32851985" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32851985" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32851985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32851985" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -216,6 +356,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BlogPost/src/MainBlogPost.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlogPost/src/BlogPost.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPostIt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -227,6 +373,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animal/src/Animal.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animal/src/AnimalMain.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiceSet/src/DiceSet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sharpie/src/Sharpie.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sharpie/src/SharpieMain.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Counter/src/CounterMain.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Counter/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Week04/Inheritance/GreenFoxOrg/src/GreenfoxOrgMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Week04/Inheritance/GreenFoxOrg/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

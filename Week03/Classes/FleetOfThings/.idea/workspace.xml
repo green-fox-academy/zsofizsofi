@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c579a6-cdd8-40b7-8fe8-7fc24082303b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Counter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Counter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fractals/Circles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fractals/Circles/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fractals/Circles/out/production/Circles/Circles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fractals/Circles/out/production/Circles/Circles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fractals/Circles/src/Circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fractals/Circles/src/Circles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fractals/Square/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fractals/Square/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Recursion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/PokemonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Week05/Gyakorlas/src/Referencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dominoes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dominoes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dominoes/out/production/Dominoes/Dominoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dominoes/out/production/Dominoes/Dominoes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dominoes/out/production/Dominoes/MainDominoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Dominoes/out/production/Dominoes/MainDominoes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dominoes/src/MainDominoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dominoes/src/MainDominoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FleetOfThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FleetOfThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../todo-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../todo-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,10 +52,29 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="153688154">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FleetOfThings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -66,13 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fleet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -106,9 +133,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="59" />
-    <option name="y" value="14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="22" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -118,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,13 +164,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534360291479" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Counter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,9 +210,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="14" width="1346" height="688" extended-state="1" />
+    <frame x="-9" y="22" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2527216" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25660965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,40 +272,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FleetOfThings.java</url>
-          <line>6</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FleetOfThings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Counter/src/Counter.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -288,6 +287,27 @@
           <folding>
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FleetOfThings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
