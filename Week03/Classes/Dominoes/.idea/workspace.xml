@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="646888cc-c7ba-4834-a67e-b83c9f2f748e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Animal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Animal/out/production/Animal/AnimalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/AnimalMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Animal/src/AnimalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/src/AnimalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Animal/src/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Animal/src/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sharpie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sharpie/out/production/Sharpie/SharpieMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/out/production/Sharpie/SharpieMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sharpie/src/SharpieMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/src/SharpieMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sharpie/src/SharpieSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sharpie/src/SharpieSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week05/Pirates/src/BattleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week05/Pirates/src/BattleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week05/Pirates/src/Pirates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week05/Pirates/src/Pirates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week05/Pirates/src/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week05/Pirates/src/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week05/Pirates/src/WarApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week05/Pirates/src/WarApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../todo-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../todo-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,6 +54,7 @@
     <session id="-57151363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -123,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -157,7 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535553215332" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535617764394" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -204,7 +203,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -215,7 +215,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

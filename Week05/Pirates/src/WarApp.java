@@ -33,7 +33,14 @@ public class WarApp {
         listOfPirates.get(2).die();
         listOfPirates.get(1).brawl(listOfPirates.get(2));
 
+        Ship ship = new Ship();
+        ship.fillShip();
+        System.out.println(ship.countAlivePiratesInTheShip());
+        pirate7.intoxicated();
+
     }
+
+
 }
 
 

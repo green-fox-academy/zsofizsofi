@@ -4,19 +4,20 @@ public class Plants {
 
     private String plantType;
     private String color;
-    private double amountOfWater;
+    private double currentWater;
     private int minimalWater;
     private double absorbeation;
 
     public String getPlantType() {
         return plantType;
     }
+
     public String getColor() {
         return color;
     }
 
-    public double getAmountOfWater() {
-        return amountOfWater;
+    public double getCurrentWater() {
+        return currentWater;
     }
 
     public int getMinimalWater() {
@@ -27,20 +28,27 @@ public class Plants {
         return absorbeation;
     }
 
-    public Plants(String plantType, String color, int minimalWater, double absorbeation){
+    public Plants(String plantType, String color, int minimalWater, double absorbeation) {
         this.plantType = plantType;
-        this.color= color;
-        this.amountOfWater=0;
-        this.minimalWater= minimalWater;
-        this.absorbeation= absorbeation;
+        this.color = color;
+        this.currentWater = 0;
+        this.minimalWater = minimalWater;
+        this.absorbeation = absorbeation;
     }
 
-    public void needsWater() {
-        if(this.amountOfWater<minimalWater ) {
-            System.out.println("The " + color + " " + plantType + " needs water.");
+    public boolean needsWater() {
+        if (this.currentWater < this.minimalWater) {
+            //System.out.println("The " + color + " " + plantType + " needs water.");
+            return true;
         } else {
-            System.out.println("The" + color + " " + plantType + " doesn't need water.");
+            //System.out.println("The" + color + " " + plantType + " doesn't need water.");
+            return false;
         }
+    }
+
+    public void wateringPlants(int water) {
+        this.currentWater=+(water*this.absorbeation);
+        System.out.println("The " + this.color + " " + this.plantType + " got water.");
     }
 
 }

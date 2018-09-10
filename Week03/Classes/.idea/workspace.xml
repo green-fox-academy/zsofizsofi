@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d4249a-b20b-4123-bd9e-c94b01dabf29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Animal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Animal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal/out/production/Animal/AnimalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/Animal/out/production/Animal/AnimalMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal/src/AnimalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animal/src/AnimalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal/src/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animal/src/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dominoes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dominoes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sharpie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/SharpieMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/out/production/Sharpie/SharpieMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/src/SharpieMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/src/SharpieMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sharpie/src/SharpieSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sharpie/src/SharpieSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week05/Pirates/src/BattleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/BattleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week05/Pirates/src/Pirates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Pirates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week05/Pirates/src/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week05/Pirates/src/WarApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week05/Pirates/src/WarApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,7 +51,7 @@
     <session id="-765847039">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -233,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535553215387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535617590906" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Sharpie" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -292,6 +290,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32851985" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32851985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

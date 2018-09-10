@@ -12,6 +12,13 @@ public class Pirates {
         this.status= "Private";
     }
 
+    public Pirates() {
+        this.name = name;
+        this.lifeState = "alive";
+        this.intoxicated = 0;
+        this.status= "Private";
+    }
+
     public String getName() {
         return name;
     }
@@ -82,5 +89,8 @@ public class Pirates {
         } else{
             System.out.println("Muhha, dead men can't kill.");
         }
+    }
+    public void intoxicated(){
+        System.out.println(this.getIntoxicated());
     }
 }
