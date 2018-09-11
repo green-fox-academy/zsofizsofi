@@ -14,5 +14,4 @@ public class Exercise8 {
 
         System.out.println(frequencyOfNumbers);
     }
-
 }
