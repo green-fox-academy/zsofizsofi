@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+  border-color: grey;
+  width: 350;
+  height: 200;
+  border-spacing: 2px;
+
+}
+
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: middle;
+  vertical-align: sub;
+}
+
+th {
+background: lightblue;
+}
+
