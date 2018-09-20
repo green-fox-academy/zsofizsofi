@@ -1,0 +1,14 @@
+.king {
+    color:salmon;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.table {
+    width: 60%;
+}
+
+.queen{
+    color:green;
+}
