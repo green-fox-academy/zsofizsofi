@@ -1,0 +1,27 @@
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 60%;
+}
+
+.urgent{
+     width: 8%;
+}
+
+.done{
+    width: 8%;
+}
+
+.id{
+    width: 5%;
+}
+
+.action{
+    width: 30%;
+}
+
+th {
+    height: 20px;
+}
