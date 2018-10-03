@@ -5,6 +5,8 @@ import com.greenfox.demo.services.MatrixService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MatrixController {
@@ -14,7 +16,7 @@ public class MatrixController {
         this.matrixService = matrixService;
     }
 
-    @GetMapping("/matrix")
+    @GetMapping("/")
     public String index() {
         return "index";
     }
@@ -22,9 +24,21 @@ public class MatrixController {
 
     @PostMapping("/matrix")
     public String showForm(Matrix matrix) {
-        matrixService.isIncreasing(matrix);
+        if (matrix = null) {
+            return;
+        }
+        if(matrixService.isIncreasing(matrix)) {
+        }
+        };
 
         return "redirect:/";
+    }
+
+    @GetMapping("/matrices")
+    @ResponseBody
+    public String (@RequestBody ()) {
+
+        return;
     }
 
 }

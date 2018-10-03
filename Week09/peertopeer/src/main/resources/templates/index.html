@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Peer to Peer Chat</title>
+</head>
+<body>
+<h1>Peer to Peer Chat program</h1>
+<p th:text="${error}" class="error"></p>
+<form action="/update-username" method="post">
+    <label for="username">Your username</label>
+    <input type="text" name="username" id="username">
+    <button type="submit">Update</button>
+</form>
+<ul>
+<li th:text="${defaultMessage.username}"></li>
+<p th:text="${defaultMessage.text}"></p>
+</ul>
+<form action="/update-username" method="post">
+    <textarea name="text" id="text" cols="80" rows="10"> </textarea>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
