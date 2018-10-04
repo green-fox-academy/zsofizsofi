@@ -1,13 +1,15 @@
 package com.greenfox.peertopeer.controllers;
 
+import com.greenfox.peertopeer.DTO.RecievedMessageDto;
+import com.greenfox.peertopeer.DTO.ResponseMessageDto;
 import com.greenfox.peertopeer.models.Message;
 import com.greenfox.peertopeer.models.User;
 import com.greenfox.peertopeer.services.PeerToPeerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Optional;
 
 @Controller
 public class PeerToPeerController {
@@ -21,9 +23,16 @@ public class PeerToPeerController {
 
     @GetMapping("/")
     public String main(@RequestParam(required = false) String error, Model model) {
+
+        if (!peerToPeerService.findById(1L).isPresent()) {
+            return "enter";
+        }
+        Optional<User> user = peerToPeerService.findById(1L);
         model.addAttribute("error", error);
+        model.addAttribute("usernameInput", user.get().getUsername());
         Message defaultMessage = new Message("App", "Hi there! Submit your message using the send button!");
         model.addAttribute("defaultMessage", defaultMessage);
+        model.addAttribute("message", peerToPeerService.findAll());
         return "index";
     }
 
@@ -50,11 +59,40 @@ public class PeerToPeerController {
         peerToPeerService.save(user);
         return "redirect:/";
     }
-//
-//    @PostMapping ("api/message/receive")
-//    @ResponseBody
-//    public Message blabla () {
-//        return;
-//    }
+
+    @PostMapping("/send")
+    public String send(Message message, Model model) {
+        Optional<User> user = peerToPeerService.findById(1L);
+        message.setUsername(user.get().getUsername());
+        peerToPeerService.save(message);
+        return "redirect:/";
+    }
+
+
+    @PostMapping("/api/message/receive")
+    @CrossOrigin("*")
+    @ResponseBody
+    public ResponseMessageDto blabla(@RequestBody(required = false) RecievedMessageDto recievedMessage, Model model) {
+//        if (recievedMessage.getMessage().getId() == null) {
+//            String a = "message.id";
+//        }
+//        if (recievedMessage.getMessage().getText() == null) {
+//            String b = "message.text";
+//        }
+//        if (recievedMessage.getMessage().getUsername() == null) {
+//            String c = "message.username";
+//        }
+//        if (recievedMessage.getMessage().getTimestamp() == null) {
+//            String d = "message.timestamp";
+//        }
+//        if (recievedMessage.getClient().getId() == null) {
+//            String e = "message.username";
+//        }
+
+        //return new ResponseMessage("error", "Missing field(s): " + " ");
+        peerToPeerService.save(recievedMessage.getMessage());
+        return new ResponseMessageDto("ok");
+    }
+
 
 }
