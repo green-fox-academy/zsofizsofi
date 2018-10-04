@@ -12,14 +12,15 @@
     <label for="username">Your username</label>
     <input type="text" name="username" id="username" th:value="${usernameInput}" />
     <button type="submit">Update</button>
+    <br>
 </form>
 
-<ul>
-    <li th:text="${defaultMessage.username}"></li>
-    <p th:text="${defaultMessage.text}"></p>
-</ul>
 
+<br>
 <form action="/send" method="post">
+
+    <textarea name="text" id="text" cols="80" rows="10"> </textarea>
+    <button type="submit">Send</button>
     <th:block th:each="element:${message}">
         <ul>
             <li th:text="${element.username}"/>
@@ -27,10 +28,13 @@
         </ul>
     </th:block>
 
-    <textarea name="text" id="text" cols="80" rows="10"> </textarea>
-    <button type="submit">Send</button>
+
 
 </form>
+<ul>
+    <li th:text="${defaultMessage.username}"></li>
+    <p th:text="${defaultMessage.text}"></p>
+</ul>
 <a href="/">Refresh</a>
 
 </body>

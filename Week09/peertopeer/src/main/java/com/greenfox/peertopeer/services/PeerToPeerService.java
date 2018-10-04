@@ -1,18 +1,21 @@
 package com.greenfox.peertopeer.services;
 
+import com.greenfox.peertopeer.DTO.RecievedMessageDto;
 import com.greenfox.peertopeer.models.Message;
 import com.greenfox.peertopeer.models.User;
 
 import java.util.Optional;
 
-public interface PeerToPeerService  {
+public interface PeerToPeerService {
     void save(User user);
 
     void save(Message message);
 
-    Optional <User> findById(Long id);
+    Optional<User> findById(Long id);
 
     Iterable<Message> findAll();
 
-    void createJSON();
+    void sendJSON(RecievedMessageDto recievedMessageDto);
+
+    Iterable<Message> findAllByOrderByTimestampDesc();
 }

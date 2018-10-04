@@ -1,6 +1,8 @@
 package com.greenfox.peertopeer.services;
 
 import com.greenfox.peertopeer.DTO.RecievedMessageDto;
+import com.greenfox.peertopeer.DTO.ResponseMessageDto;
+import com.greenfox.peertopeer.models.Client;
 import com.greenfox.peertopeer.models.Message;
 import com.greenfox.peertopeer.models.User;
 import com.greenfox.peertopeer.repositories.MessageRepository;
@@ -41,14 +43,19 @@ public class PeerToPeerServiceImpl implements PeerToPeerService {
         return messageRepository.findAll();
     }
 
+
     @Override
-    public void createJSON()
-    {
-        final String url = "http://localhost:8080/api/message/receive";
+    public void sendJSON(RecievedMessageDto recievedMessageDto) {
 
-        RecievedMessageDto recievedMessageDto = new RecievedMessageDto();
+            final String url = System.getenv("CHAT_APP_PEER_ADDRESS") + ":8080/api/message/receive";
+            RestTemplate restTemplate = new RestTemplate();
+            restTemplate.postForObject("http://" + url, recievedMessageDto, ResponseMessageDto.class);
 
-        RestTemplate restTemplate = new RestTemplate();
-        RecievedMessageDto result = restTemplate.postForObject( url, recievedMessageDto, RecievedMessageDto.class);
+    }
+
+    @Override
+    public Iterable <Message> findAllByOrderByTimestampDesc() {
+
+        return messageRepository.findAllByOrderByTimestampDesc();
     }
 }

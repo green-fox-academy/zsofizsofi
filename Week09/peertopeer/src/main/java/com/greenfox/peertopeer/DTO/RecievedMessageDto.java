@@ -28,5 +28,10 @@ public class RecievedMessageDto {
         this.client = client;
     }
 
+    public RecievedMessageDto(Message message, Client client) {
+        this.client = client;
+        this.message= message;
+    }
+
 
 }

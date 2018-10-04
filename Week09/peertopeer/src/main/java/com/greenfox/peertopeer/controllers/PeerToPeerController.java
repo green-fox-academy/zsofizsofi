@@ -2,13 +2,17 @@ package com.greenfox.peertopeer.controllers;
 
 import com.greenfox.peertopeer.DTO.RecievedMessageDto;
 import com.greenfox.peertopeer.DTO.ResponseMessageDto;
+import com.greenfox.peertopeer.models.Client;
 import com.greenfox.peertopeer.models.Message;
 import com.greenfox.peertopeer.models.User;
 import com.greenfox.peertopeer.services.PeerToPeerService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.swing.text.html.parser.Entity;
 import java.util.Optional;
 
 @Controller
@@ -32,7 +36,7 @@ public class PeerToPeerController {
         model.addAttribute("usernameInput", user.get().getUsername());
         Message defaultMessage = new Message("App", "Hi there! Submit your message using the send button!");
         model.addAttribute("defaultMessage", defaultMessage);
-        model.addAttribute("message", peerToPeerService.findAll());
+        model.addAttribute("message", peerToPeerService.findAllByOrderByTimestampDesc());
         return "index";
     }
 
@@ -65,14 +69,18 @@ public class PeerToPeerController {
         Optional<User> user = peerToPeerService.findById(1L);
         message.setUsername(user.get().getUsername());
         peerToPeerService.save(message);
+        //Message newMessage = new Message(user.get().getUsername(),message.getText());
+        RecievedMessageDto recievedMessageDto = new RecievedMessageDto (message, new Client());
+        peerToPeerService.sendJSON(recievedMessageDto);
+
         return "redirect:/";
     }
 
 
     @PostMapping("/api/message/receive")
-    @CrossOrigin("*")
+    //@CrossOrigin("*")
     @ResponseBody
-    public ResponseMessageDto blabla(@RequestBody(required = false) RecievedMessageDto recievedMessage, Model model) {
+    public ResponseEntity <ResponseMessageDto> reciveAndSend(@RequestBody(required = false) RecievedMessageDto recievedMessageDto, Model model) {
 //        if (recievedMessage.getMessage().getId() == null) {
 //            String a = "message.id";
 //        }
@@ -90,8 +98,11 @@ public class PeerToPeerController {
 //        }
 
         //return new ResponseMessage("error", "Missing field(s): " + " ");
-        peerToPeerService.save(recievedMessage.getMessage());
-        return new ResponseMessageDto("ok");
+        peerToPeerService.save(recievedMessageDto.getMessage());
+        if (!recievedMessageDto.getClient().getId().equals(System.getenv("CHAT_APP_UNIQUE_ID")))
+        peerToPeerService.sendJSON(recievedMessageDto);
+
+        return new ResponseEntity <> (new ResponseMessageDto("ok"), HttpStatus.OK);
     }
 
 
